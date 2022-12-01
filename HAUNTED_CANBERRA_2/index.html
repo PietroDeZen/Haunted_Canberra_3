@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="images/website-icon.png">
+
+    <title>Haunted Canberra</title>
+
+</head>
+
+
+<body>
+
+    <header id="Home" class="header"> <!--TO DO: set background color to black-->
+
+      
+        <h1 class="title">Hau<span class="n">n</span><span class="t">t</span>ed Canberra</h1> <!--TO DO: set font-color to white, change position to top-left-->
+        
+            
+        <nav class="nav main-nav"> <!--TO DO: remove text-style, set font-color to white, change position to top-right-->
+            <ul>
+               <li><a href="#Home">Home</a></li>
+               <li class="dropdown"><a href="#Stories" class="dropbtn">Stories</a>
+              <div class="dropdown-content">
+                <a href="#BlundellsCottage">Blundells Cottage</a>
+                <a href="#NationalMuseum">National Museum</a>
+                <a href="#HotelKurrajong">Hotel Kurrajong</a>
+                <a href="#NationalFilmA">Film Archive</a>
+              </div>
+               </li>
+               <li><a href="#aboutId">About </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+     <div class="first-section-background-image" aria-label="Newest Photo"></div>
+       
+      <!--Fake body start-->
+    <div class="bodee">
+
+            <div class="slider" >  
+                 <div class="slides" >
+      
+                  <!--radio buttons start -->
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <input type="radio" name="radio-btn" id="radio4">
+                  <!--radio buttons end -->
+
+                  <!--slide images start -->
+                  
+                    <div class="slide first">
+                      <img  src="images/cottege.jpg" alt="cottege">
+                    </div>
+                    <div class="slide">
+                      <img  src="images/hospital.jpg" alt="hospital">
+                    </div>
+                    <div class="slide">
+                      <img  src="images/Hotel-Kurrajong.jpg" alt="hotel">
+                    </div>
+                    <div class="slide">
+                      <img  src="images/MA23337046-Australian-Institute-of-Anatomy-1400w.jpg" alt="Institute of Anatomy">
+                    </div>
+                  
+                  <!--slide images end -->
+
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                   </div>
+                  <!--automatic navigation end-->
+            </div>
+
+                <!--Manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+                <!--Manual navigation end--> 
+                
+       </div>
+      </div>
+      <!--Fake body end-->
+
+
+   <!--Second Section start -->
+  <div  id="stories" class="second-section">
+   
+
+<!--Lightbox-container start-->
+<div   class="grid-container">
+
+    <img  class="grid-item item1" src="images/cottege.jpg" alt="Blundells Cottage" >
+
+    <img class="grid-item item2" src="images/hospital.jpg" alt="Canberra Hospital" >
+
+    <img class="grid-item item3" src="images/Hotel-Kurrajong.jpg" alt="Hotel Kurrajong" >
+
+    <img  class="grid-item item4" src="images/MA23337046-Australian-Institute-of-Anatomy-1400w.jpg" alt="Institute of Anatomy" >
+ 
+</div>
+<!--Lightbox-container end-->
+
+<!--LIGHTBOX BACKGROUND-->   
+<div id="lightbox"></div>
+<!--LIGHTBOX BACKGROUND-->
+
+<!--GRID FOR TITLE: Stories AND TEXT PARAGRAPH start-->
+<div id="Stories" class="stories">
+<!--Second Section title start-->
+<h2 class="stories-title">Stories</h2>
+<!--Second Section title end -->
+
+<!-- Second Section paragraph start-->
+<p class="secsecpar">
+  Though Canberra is arguably a quite city
+  known mainly for its political history, the city has 
+  also home to some scary haunted places. Out of all,
+  four are the ones that might be regarded as the most
+  spiritually active: Blundells cottage, The National Museum,
+  Hotel Kurrajong and  The National Film Archive.
+</p>
+<!--Second Section paragraph end-->
+
+</div>
+<!--GRID FOR TITLE: Stories AND TEXT PARAGRAPH end-->
+
+</div>
+<!--Second Section end -->
+
+<!--Third Section start-->
+<!--<div class="thrid-section"> -->
+  
+  <!--GRID TEMPLATE FOR STORIES-->
+  <div id="BlundellsCottage" class="cottage-container">
+    <img class="cottage-image" src="images/cottege.jpg" alt="blundells-cottage">
+
+    <div  class="bcottage">
+    <h2 class="cottage-title">Blundells Cottage</h2>
+    <p class="story-1">Built in the 1860, the cottage
+      was surronded by farming land and crops. In 1874
+      the Blundells family moved in. The legend says that 
+      George and Flora Blundells' daughter sadly passed away
+      when she was only a teenager. Cause of her death? Burnt alive.
+      It is said that the poor girl was ironing when eventually an 
+      unescapable fire took place taking the young girl's life.
+      To these days, visitors witness paranormal activities happening
+      in that place. The most recurrent paranormal phenomenon is a smell
+      of burning flashes. Perhaps, an evidence of the brutal and sudden death 
+      that still keeps the soul of the poor girl on this world.
+    </p>
+  </div>
+  </div>
+
+  <div id="NationalMuseum" class="cottage-container">
+    
+    <div  class="bcottage">
+    <h2 class="cottage-title">The National Museum</h2>
+    <p class="story-1">Probably, the least place that comes to mind 
+      when thinking about spooky places in Canberra. However, it is 
+      said that in one of the rooms of the building many visitors have seen 
+      an old woman in a bathtub. There's only a problem though, neither the 
+      woman nor the bathtub is phisically there. The National Museum stands 
+      where there previously was the Royal Canberra Hospital and the woman might still have not 
+      find her way out of a building that no longer exhist. Will she be stuck in the 
+      Museum till the end of times?
+    </p>
+  </div>
+  <img class="cottage-image" src="images/hospital.jpg" alt="royal-canberra-hospital">
+</div>
+
+  <div id="HotelKurrajong" class="cottage-container">
+    <img class="cottage-image" src="images/Hotel-Kurrajong.jpg" alt="hotel-kurrajong">
+
+    <div  class="bcottage">
+    <h2 class="cottage-title">Hotel Kurrajong</h2>
+    <p class="story-1">Hotel Kurrajong is one of the buildings
+      where the history of the young capital of Australia has been made.
+      Together with what is now known as the Hyatt Hotel Canberra, it
+      used to be a place where politicians stayed while on duty.
+      However, although almost a century has passed, someone never left.
+      He's name is Ben Chiffley former prime minister of Australia. 
+      He suffered a fatal heart attack while in his room and people say that a part 
+      of him is still there. Many have witnessed what is considered to be his ghost.
+      What does it look like? When appearing, it usally manifests itself as a middle-age man
+      wearing a grey suit who from the window of his room look toward the old Parliament House.
+    </p>
+  </div>
+  </div>
+
+  <div id="NationalFilmA" class="cottage-container">
+    
+   <div  class="bcottage">
+    <h2 class="cottage-title">National Film Archive</h2>
+    <p class="story-1"> Can horror movies function as a bridge to allow
+      for entities in the afterlife to come in our world? Well, the reality
+      of this place is a bit darker. Before being converted to a film archive,
+      this building was home to the Australian Institue of Anatomy. The original idea 
+      was to create a space dedicated to science. Thus, exposed to the public there
+      weren't only dead animal bodies but also human ones. Little did they know that messing
+      with the dead is not a good idea. Both visitors and staff members have experienced 
+      paranormal activities. Such activities range from objects falling from anti-gravity shelves
+      to creepier ones like seeing children faces appearing from behind grates. 
+    </p>
+  </div>
+
+  <img class="cottage-image" src="images/MA23337046-Australian-Institute-of-Anatomy-1400w.jpg" alt="Institute-of-Anatomy">
+  </div>
+  
+  
+<!--Third Section end-->
+
+<!--About Section start-->
+<div id="aboutId" class="about">
+  <h2>About</h2>
+  <p>Haunted Canberra is a site dedicated to 
+    the spookiest places someone might encounter when
+    coming into the Australian Capital Territory. We 
+    collect folklore stories to contribute to the cultural
+    hitory of the city.
+  </p>
+</div>
+<!--About Section end-->
+
+<!--Footer start --> 
+    <footer class="ftr">
+      <ul class="footer-title">
+        <li><h3>Haunted Canberra</h3></li>
+        <li><p class="copyright"> &copy; 2022 All Rights Reserved</p></li>
+      </ul>
+
+      <ul class="footer-nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Stories">Stories</a></li>
+        <li><a href="#About">About</a></li>
+      </ul>
+    </footer>
+<!--Footer end--> 
+</body>
+
+
+</html>
